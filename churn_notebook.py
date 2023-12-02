@@ -326,7 +326,7 @@ plt.ylabel('Importance')
 plt.bar(range(X.shape[1]), importances[indices])
 
 # Add feature names as x-axis labels
-plt.xticks(range(X.shape[1]), names, rotation=90);
+plt.xticks(range(X.shape[1]), names, rotation=90)
 
 
 # In[28]:
@@ -338,7 +338,7 @@ plt.text(0.01, 1.25, str('Random Forest Train'), {'fontsize': 10}, fontpropertie
 plt.text(0.01, 0.05, str(classification_report(y_test, y_test_preds_rf)), {'fontsize': 10}, fontproperties = 'monospace') # approach improved by OP -> monospace!
 plt.text(0.01, 0.6, str('Random Forest Test'), {'fontsize': 10}, fontproperties = 'monospace')
 plt.text(0.01, 0.7, str(classification_report(y_train, y_train_preds_rf)), {'fontsize': 10}, fontproperties = 'monospace') # approach improved by OP -> monospace!
-plt.axis('off');
+plt.axis('off')
 
 
 # In[29]:
@@ -349,7 +349,7 @@ plt.text(0.01, 1.25, str('Logistic Regression Train'), {'fontsize': 10}, fontpro
 plt.text(0.01, 0.05, str(classification_report(y_train, y_train_preds_lr)), {'fontsize': 10}, fontproperties = 'monospace') # approach improved by OP -> monospace!
 plt.text(0.01, 0.6, str('Logistic Regression Test'), {'fontsize': 10}, fontproperties = 'monospace')
 plt.text(0.01, 0.7, str(classification_report(y_test, y_test_preds_lr)), {'fontsize': 10}, fontproperties = 'monospace') # approach improved by OP -> monospace!
-plt.axis('off');
+plt.axis('off')
 
 
 # In[ ]:
