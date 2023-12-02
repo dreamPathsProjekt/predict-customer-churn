@@ -1,0 +1,4 @@
+[core]
+    remote = predict-customer-churn
+['remote "predict-customer-churn"']
+    url = /home/dritsas/Documents/internal-only/predict-customer-churn/

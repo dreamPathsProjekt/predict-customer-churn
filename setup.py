@@ -23,6 +23,7 @@ setup(
             "pylint==2.7.4",
             "autopep8==1.5.6",
             "pytest==7.4.3",
+            "dvc==3.30.3",
         ]
     },
     entry_points={
