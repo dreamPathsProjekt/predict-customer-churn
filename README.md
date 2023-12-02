@@ -24,7 +24,7 @@ How do you run your files? What should happen when you run your files?
 pip install .
 ```
 
-- To also install `develop` extras for testing, linting & data version control:
+- To also install `develop` extras for testing, linting, jupyter notebook execution & data version control:
 
 ```shell
 pip install .[develop]

@@ -25,6 +25,7 @@ setup(
             "pytest==7.4.3",
             "dvc==3.30.3",
             "ipython==8.12.3",
+            "jupyter==1.0.0",
         ]
     },
     entry_points={
