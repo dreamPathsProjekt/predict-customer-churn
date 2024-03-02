@@ -3,8 +3,7 @@
 
 # import libraries
 import os
-os.environ['QT_QPA_PLATFORM']='offscreen'
-
+os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 
 
 def import_data(pth):
